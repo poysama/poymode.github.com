@@ -17,7 +17,9 @@ C-a :
 
 then execute
 
+{% highlight bash %}
 *at "#" stuff "command^M"*
+{% endhighlight %}
 
 where
 
@@ -35,6 +37,6 @@ Examples:
 
 This will send ls -l to all open screen windows in a session
 
+{% highlight bash %}
 at "#" stuff "ls -l^M"
-
-
+{% endhighlight %}
